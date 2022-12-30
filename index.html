@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Page Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="110">
+
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logosmall.png" alt="Logo" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#video-banner">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#client">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="video-banner" class="overflow-hidden">
+    <video autoplay loop muted id="myVideo">
+      <source src="video/mc23pac.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <button id="unmuteButton" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true"><i class="fas fa-volume-up"></i></button>
+      <a href="#about" class="scroll-down smooth-scroll">
+        <div class="mouse">
+          <div class="scroller"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="about" class="overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 overflow-hidden" data-aos="zoom-in" data-aos-duration="1400" data-aos-once="true">
+          <div class="left-row-inner">
+            <div class="row mb-3">
+              <div class="col-lg-4 col-md-4">
+                <div class="img-outer">
+                  <img src="images/logo4.png" alt="Logo" class="">
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero distinctio perspiciatis amet
+                  incidunt id! Possimus, quidem excepturi eius asperiores inventore sequi.</p>
+              </div>
+            </div>
+            <div class="row my-details">
+              <div class="col-lg-6 col-md-6">
+                <p><span class="icon-border"><i class="far fa-envelope"></i> </span> <span>test@gmail.com</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p><span class="icon-border"><i class="fas fa-phone-square-alt"></i> </span><span>12548962</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p><span class="icon-border"><i class="fas fa-location-arrow"></i></span> <span>Denmark</span></p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p><span class="icon-border"><i class="far fa-envelope"></i></span> <span>test@gmail.com</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="right-row-inner">
+            <div class="my-skills">
+              <div class="heading" data-aos="fade-down" data-aos-once="true"data-aos-duration="2000">
+                <h2>Talents</h2>
+              </div>
+              <div class="progress-wrapper overflow-hidden"  data-aos="fade-left" data-aos-once="true">
+                <div class="single-bar">
+                  <label for=""><span>HTML5</span></label>
+                  <div class="skill" data-percentage="67%">
+                    <div class="skill-bar html"></div>
+                    <div class="after-bar"></div>
+                    <span class="progress-number htmlnum">67%</span>
+                  </div>
+                </div>
+                <div class="single-bar">
+                  <label for=""><span>CSS3</span></label>
+                  <div class="skill" data-percentage="92%">
+                    <div class="skill-bar css"></div>
+                    <div class="after-bar"></div>
+                    <span class="progress-number cssnum">92%</span>
+                  </div>
+                </div>
+                <div class="single-bar">
+                  <label for=""><span>JQuery</span></label>
+                  <div class="skill" data-percentage="90%">
+                    <div class="skill-bar jquery"></div>
+                    <div class="after-bar"></div>
+                    <span class="progress-number jqnum">90%</span>
+                  </div>
+                </div>
+                <div class="single-bar">
+                  <label for=""><span>Bootstrap</span></label>
+                  <div class="skill" data-percentage="56%">
+                    <div class="skill-bar bootstrap"></div>
+                    <div class="after-bar"></div>
+                    <span class="progress-number bootsnum">56%</span>
+                  </div>
+                </div>
+                <div class="single-bar">
+                  <label for=""><span>WordPress</span></label>
+                  <div class="skill" data-percentage="54%">
+                    <div class="skill-bar wordpress"></div>
+                    <div class="after-bar"></div>
+                    <span class="progress-number wordpressnum">54%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="overflow-hidden">
+    <div class="container">
+      <div class="heading overflow-hidden" data-aos="fade-down" data-aos-once="true"data-aos-duration="2000">
+        <h2>Services</h2>
+      </div>
+      <div class="wrapper">
+        <div class="row text-center">
+          <div class="card-deck box-container">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="0" data-aos-once="true">
+                <div class="card-body h-100">
+                  <div class="icon-box mx-auto">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <h3>Graphic Design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum
+                    labore aperiam assumenda.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="1900" data-aos-once="true">
+                <div class="card-body">
+                  <div class="icon-box mx-auto">
+                    <i class="fas fa-mug-hot"></i>
+                  </div>
+                  <h3>Marketing Strategy</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum
+                    labore aperiam assumenda.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="900" data-aos-once="true">
+                <div class="card-body">
+                  <div class="icon-box mx-auto">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                  </div>
+                  <h3>Web Design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum
+                    labore aperiam assumenda.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="1900" data-aos-once="true">
+                <div class="card-body">
+                  <div class="icon-box mx-auto">
+                    <i class="far fa-square"></i>
+                  </div>
+                  <h3>SEO</h3>
+                  <p>Lorem ipsum dolor sit amet, </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="1900" data-aos-once="true">
+                <div class="card-body">
+                  <div class="icon-box mx-auto">
+                    <i class="far fa-edit"></i>
+                  </div>
+                  <h3>Market Leading</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum
+                    labore aperiam assumenda.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 m-0 overflow-hidden" data-aos="zoom-in" data-aos-delay="1900" data-aos-once="true">
+                <div class="card-body">
+                  <div class="icon-box mx-auto">
+                    <i class="fas fa-pen-square"></i>
+                  </div>
+                  <h3>Pixel Perfect Design</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facilis, pariatur harum
+                    labore aperiam assumenda.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="client" class="overflow-hidden">
+    <div class="container">
+      <div class="client-header overflow-hidden" data-aos="fade-down" data-aos-once="true"data-aos-duration="2000">
+        <h2 class="text-center">Client Says</h2>
+      </div>
+      <div class="owl-carousel owl-theme"  data-aos="zoom-in" data-aos-once="true"data-aos-duration="1400">
+        <div class="row client">
+          <div class="col-lg-4 col-md-4 client-img">
+            <img src="images/t1.jpg" alt="client-img" class="img-fluid">
+          </div>
+          <div class="col-lg-8 col-md-8 client-text">
+            <h4 class="text">Jhon martin</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptas dolores sunt at similique fugiat.
+            </p>
+          </div>
+        </div>
+        <div class="row client">
+          <div class="col-lg-4 col-md-4 client-img">
+            <img src="images/t2.jpg" alt="client-img" class="img-fluid">
+          </div>
+          <div class="col-lg-8 col-md-8 client-text">
+            <h4 class="text">Tom billy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptas dolores sunt at similique fugiat.
+            </p>
+          </div>
+        </div>
+        <div class="row client">
+          <div class="col-lg-4 col-md-4 client-img">
+            <img src="images/t1.jpg" alt="client-img" class="img-fluid">
+          </div>
+          <div class="col-lg-8 col-md-8 client-text">
+            <h4 class="text">Jhon martin</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptas dolores sunt at similique fugiat.
+            </p>
+          </div>
+        </div>
+        <div class="row client">
+          <div class="col-lg-4 col-md-4 client-img">
+            <img src="images/t2.jpg" alt="client-img" class="img-fluid">
+          </div>
+          <div class="col-lg-8 col-md-8 client-text">
+            <h4 class="text">Tom billy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptas dolores sunt at similique fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="overflow-hidden">
+    <div class="container">
+      <div class="section-header text-center overflow-hidden" data-aos="fade-down" data-aos-once="true"data-aos-duration="2000">
+        <h2>recent Projects</h2>
+      </div>
+      <div class="image-wrapper">
+        <div class="p-buttons">
+          <a href="#" class="btn btn-md btn-primary active" id="btn1">All</a>
+          <a href="#" class="btn btn-md btn-primary" data-filter=".cat1">Category1</a>
+          <a href="#" class="btn btn-md btn-primary" data-filter=".cat2">Category2</a>
+          <a href="#" class="btn btn-md btn-primary" data-filter=".cat3">Category3</a>
+          <a href="#" class="btn btn-md btn-primary" data-filter=".cat4">Category4</a>
+        </div>
+        <div class="row grid">
+          <div class="col-lg-3 col-md-6 cat1 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image1.jpeg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project1">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project1" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat2 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image1.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project2">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project2" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat3 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image2.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project3">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project3" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat1 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image3.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project4">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project4" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat3 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image1.jpeg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project1">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project1" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat2 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image1.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project2">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project2" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat1 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image2.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project3">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project3" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 cat4 mb-4">
+            <div class="work">
+              <div class="img overlay">
+                <div class="overlay-inner">
+                  <img src="images/image3.jpg" alt="portfolio-img" class="img-fluid">
+                  <div class="pro-name text-center">
+                    <h4>Project 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  <div class="links">
+                    <a href="#"><i class="fas fa-link"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="site-link">
+                <!-- Button trigger modal -->
+                <button type="button" class="km-btn" data-toggle="modal" data-target="#project4">Know More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="project4" tabindex="-1" role="dialog">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Project title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti sunt itaque, dolor provident recusandae!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="portfolio" class="overflow-hidden">
+    <div class="portfolio-carousel overflow-hidden" data-aos="zoom-in" data-aos-once="true"data-aos-duration="1400">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image1.jpeg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image2.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image1.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image3.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image1.jpeg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image2.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image3.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner-item">
+            <img src="images/image1.jpg" alt="portfolio" class="img-fluid">
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, temporibus.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="contact" class="overflow-hidden">
+    <div class="container">
+      <div class="heading overflow-hidden" data-aos="fade-down" data-aos-once="true"data-aos-duration="2000">
+        <h2 class="text">Contact me</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <div class="form overflow-hidden" data-aos="fade-right" data-aos-once="true"data-aos-duration="1400">
+            <form action="#" class="form-group m-0">
+              <div class="name-group">
+                <input type="text" class="form-control" required>
+                <label for="" class="anim-label">
+                  <span class="label-name">Name</span>
+                </label>
+              </div>
+              <div class="email-group">
+                <input type="email" class="form-control" required>
+                <label for="" class="anim-label"><span class="label-name">Email</span></label>
+              </div>
+              <div class="msg-group">
+                <textarea name="" id="" class="form-control" cols="20" rows="4" required></textarea>
+                <label for="" class="anim-label"><span class="label-name">Message</span></label>
+              </div>
+              <div class="button text-right">
+                <button type="button" class="btn btn-md btn-primary text-uppercase my-0">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="map-wrapper overflow-hidden" data-aos="fade-left" data-aos-once="true"data-aos-duration="1400">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16353.414125156718!2d-2.9921754923619757!3d53.20816616940133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487adc9d32135deb%3A0xd375ed062e950618!2sSealand%2C%20UK!5e1!3m2!1sen!2sbd!4v1606308344595!5m2!1sen!2sbd" width="515" height="345" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer id="footer">
+  <div class="container">
+    <div class="heading">
+      <h2>Website</h2>
+    </div>
+    <hr>
+    <div class="footer-links">
+      <div class="section-links">
+        <a href="#video-banner" class="pl-0">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#client">Clients</a>
+        <a href="#projects">Projects</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <hr class="bottom">
+    <div class="footer-last">
+      <p class="copyright">Designed By &copy;Shahriar sohag, 2020</p>
+      <a href="#video-banner" class="scroll-top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
